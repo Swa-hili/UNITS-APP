@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html {
+  font-size: 62.5;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }}
+
+/*header*/
+.header {
+background-color: rgb(224, 227, 230);
+height: 41vh;
+}
+.heading-container {
+    align-items: center;
+  justify-content: center;
+   padding: 2.8rem 0rem;
+}
+.tittle {
+  font-size: 3.8rem;
+text-align: center;
+padding-top: 3rem;
+line-height: 3rem;
+}
+.input-container {
+  display: flex;
+align-items: center;
+justify-content: center;
+gap: 1rem;
+padding-top: 3rem;
+}
+
+#unitValue {
+  width: 20rem;
+  height: 4rem;
+}
+#selected {
+  width: 15rem;
+  height: 4.2rem;
+  
+}
+#submit{
+  width: 8rem;
+  height: 4.2rem;
+  background-color: rgb(24, 24, 24);
+  border: 0cm;
+  color: #ffffff;
+  font-size: 1.9rem;
+font-weight: 600;
+font-family: 'Times New Roman', Times, serif;
+
+}
+#unitValue {
+  font-size: 1.5rem;
+  font-weight: 600;
+  border: 0cm;
+  padding-left: 1rem;
+}
+#selected {
+  font-size: 1.5rem;
+  font-weight: 700;
+  border: 0cm;
+  text-align: center;
+
+}
+/*output*/
+.output {
+   text-align: center;
+   font-size: 2rem;
+   line-height: 4rem;
+   padding-top: 1rem;
+}

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Units App</title>
+  <link rel="stylesheet" href="src/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <section class="header">
+    <div class="heading-container">
+      <div class="heading-titte">
+        <h1 class="tittle">CONVERT FROM ANY UNIT TO ALL UNITS</h1>
+      </div>
+      <form action="#" class="input-container">
+        <input type="text" id="unitValue" placeholder="value" />
+
+         <select id="selected">
+          <option value="--Base-Unit--" disabled selected>--Base Unit--</option>
+          <option value="Millimeters">Millimeters</option>
+          <option value="Centimeters">Centimeters</option>
+          <option value="Decimeters">Decimeters</option>
+          <option value="Meters">Meters</option>
+          <option value="DeKameters">Decameters</option>
+          <option value="Hectometers">Hectometers</option>
+          <option value="Kilometers">Kilometers</option>
+        </select>
+
+        <input type="submit" id="submit" value="convert" />
+      </form>
+      <div class="display-warning">
+        <p class="warn-text" id="warn-text"></p>
+      </div>
+    </div>
+  </section>
+  <section class="footer">
+    <div class="output" id="output"></div>
+  </section>
+  <script src="src/main.js"></script>
+</body>
+
+</html>
